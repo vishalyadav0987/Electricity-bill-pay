@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WWW.BSESDELHI.com</title>
+  <link rel="stylesheet" href="Electricity.css">
+  <script>
+  
+    function Rateunit() {
+      var x = document.getElementById('box12').value;
+      var y = document.getElementById('box13').value;
+      var z = x * y;
+      document.getElementById('Rateunit').innerHTML = z;
+
+    }
+
+
+
+  </script>
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="/sites photos/layout_set_logo.png" alt="" class="bses">
+    <a href="asdf" class="l1">BSES Rajdhani Power Ltd</a>
+    <a href="asdf" class="l2"> BSES Yamuna Power Ltd</a>
+  </div>
+  <div class="sub">
+    <input type="text" pattern="[0-9]{10}" placeholder="Enter CA Number" class="text"
+      style="font-size: 17px; border: 1px solid black;">
+    <input type="submit" style="height: 33px;
+    margin: -2px 0px 0px 4px;
+    color: white;
+    background: rgb(226, 19, 19);
+    border-radius: 8px;
+    width: 100px;
+    border: 1px rgb(226,19,19);">
+  </div>
+
+  <div class="content">
+    <div class="liners">
+      <a href="https://www.bsesdelhi.com/web/bses/mobile-app?typeOfMobile=ios"><img src="/sites photos/google-play.jpg"
+          alt="" class="f1"></a>
+      <a href="https://www.bsesdelhi.com/web/bses/mobile-app?typeOfMobile=anroid"> <img
+          src="/sites photos/apple-store.jpg" alt="" class="f2"></a>
+      <a href="https://www.facebook.com/bsesdelhi" target="_blank"> <img src="/sites photos/button-facebook.png" alt=""
+          class="f3"></a>
+      <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQExJbCmNOoAagAAAYTntI-oSrLggP-0d0n5ZeBepmDeP_m8v9OT7X66cnUhiIQVnZpDGBG3oqIMChASjv9HO2LUFMzK6atUR35wprplU_tQ-YrXBVtl5MsI9t47YntfJ_NNZwo=&original_referer=https://www.bsesdelhi.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fbses"
+        target="_blank"><img src="/sites photos/button-linkdin.png" alt="" class="f4"></a>
+      <a href="https://twitter.com/bsesdelhi?lang=en" target="_blank"><img src="/sites photos/button-twitter.png" alt=""
+          class="f5"></a>
+    </div>
+    <center><img class="main" src="/sites photos/article.jfif"></center>
+  </div>
+  <div class="meter" style="
+    margin: 12px 0px -21px 198px;
+  ">
+    <h1 class="power">Power consumption calculator</h1>
+    <h1 class="meter4">High consumption $ / unit</h1>
+    <label for="text" class="units89">Consumption:</label>
+    <input type="text" id="box12" placeholder=" Enter your units" style="width: 252px;
+      padding-left: 15px;
+      font-size: 17px;height: 37px;">
+    <img src="/sites photos/line2.png" alt="" class="line">
+    <label for="text" class="units90">Units/rate:</label>
+    <input type="text" id="box13" placeholder=" Enter your units" style="
+   margin: -279px 0px 241px 193px;
+display: flex;
+padding-left: 15px;
+font-size: 17px;
+width: 252px;
+height: 37px;
+    ">
+    <input type="submit" value="Touch" onclick="Rateunit()" style="
+  margin: -130px 0px 93px 409px;
+width: 114px;
+display: flex;
+height: 36px;
+font-size: 18px;
+font-weight: bold;
+border: 2px solid red;
+border-radius: 7px;
+color: white;
+background: red;
+">
+    <p id="Rateunit"></p>
+    <p class="class">Bill for pay :</p>
+
+    <div class="for">
+      <ol>
+        <li>For domestic use > 100 to 200 unit</li>
+        <li>For factory use meter unit > 300 units</li>
+        <li>For hospital use power supply 11000 kwh</li>
+        <li>for home uses power supply 240 v</li>
+      </ol>
+    </div>
+  </div>
+  <div class="form">
+    <fieldset>
+      <legend>
+        <h1>Quick Pay</h1>
+      </legend>
+      <form>
+        <img src="/sites photos/bulb.svg" alt="" class="bulb23">
+        <label for="Customer Id"><b class="b1">Customer Id :</b></label><br>
+        <input type="text" id="first name" name="Customer Id" pattern="[0-9]{12}" style="margin: 8px 6px 16px 47px; padding-left: 19px;
+        font-weight: bold;" placeholder="Enter your Id"><br>
+        <label for="Phone Number"><b class="b2">Phone Number :</b></label><br>
+        <input type="text" id="last name" name="Phone Number" pattern="[0-9]{10}" style="margin: 8px 6px 16px 47px; padding-left: 19px;
+        font-weight: bold;" placeholder="Enter your Number"><br>
+        <input class=" submit" type="submit" value="Submit" style="margin: 16px 0px 39px 75px;
+  width: 218px;
+  height: 42px;
+  border-radius: 18px;color: white;
+background: red;
+border: 2px solid red;
+font-size: 18px;
+font-weight: bold;">
+
+        <a href="#"><img src="/sites photos/gpay.png" alt="" class="gpay"></a>
+        <a href="#"><img src="/sites photos/paytm.png" alt="" class="paytm"></a>
+        <a href="#"> <img src="/sites photos/visa.png" alt="" class="visa"></a>
+        <img src="/sites photos/pay.jpeg" alt="" class="logo5">
+      </form>
+    </fieldset>
+  </div>
+  <div class="how">
+    <p class="how1">
+      How to save electricity ?
+    </p>
+    <img src="/sites photos/tower.jpg" alt="" class="tower">
+    <pre class="article" style="margin: -709px 0px 750px 9px;
+   font-size: 22px;
+   font-family: revert-layer;
+   color: blue;">
+    Firstly, all of us must understand that even a small step will go a 
+    very long way insaving electricity. For instance, if every person at
+    each home switches on the fan when not in use, thousands of watts of 
+    electricity can be saved.Similarly, if we our air conditioners, heaters,
+    ovens, refrigerators and more properly, we can successfully amounts of 
+    electricity.Furthermore, try making use of natural light more. Do not 
+    keep the lights unnecessaryin the morning and afternoons. Make do with 
+    the natural light as it is enough. We must replace all our old appliances 
+    as they consume a lot of electricity. In other words,must strive to make 
+    our homes energy efficient.Moreover, always remember to unplug your electrical 
+    gadgets when not in use. These devices consume at least 10% of electricity 
+    even when inactive. Thus, unplug them to save electricity.
+    In addition, try to cut down your TV watching time. Encourage kids to read 
+    and play outsideinstead. Likewise, try using laptops in place of desktops. 
+    Desktops consume more energy than a laptop. You must also switch off the 
+    fans if you using your air conditioner,thereby avoiding unnecessary wastage.
+    Most importantly, installing solar panels can help you excessively. They are
+    very economical and help in saving a lot of energy. The solar panels will help 
+    in consuming lesserenergy that too economically. Similarly, the industries 
+    which use megawatts of electricity must install windmills. This can help in 
+    getting cheap electricity through natural means.
+   </pre>
+  </div>
+
+  <div class="footer">
+    <footer>
+      <p class="foot" style="color:white ; font-weight:bold;
+   font-size:30px; margin-left: 100px;">
+        @Electricity Bill website
+      </p>
+    </footer>
+  </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
