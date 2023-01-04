@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page of WWW.BSESDELHI.com</title>
+    <link rel="stylesheet" href="project.css">
+    <script>
+        function off() {
+            document.getElementById('off').src = "/sites photos/pic_bulbon2.gif"
+
+        }
+        function on() {
+            document.getElementById('off').src = "/sites photos/pic_bulboff.gif"
+        }
+    </script>
+    <style>
+        #off {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="margin-bottom: 20px;">
+        <header>
+            <nav class="inline">
+                <li class="h">Home</li>
+                <li class="c">About</li>
+                <li class="u">Contact us</li>
+        </header>
+        </nav>
+    </div>
+    <center>
+        <h1><b class="i">INDIAN ELECT</b><b class="r">RICITY BILL</b></h1>
+    </center>
+    <center> <img src="/sites photos/pic_bulboff.gif" alt="" id="off"></center>
+    <button class="b2" onclick="off()" style="margin: -43px 0px 0px 802px;
+    font-size: 20px;
+    border-radius: px;
+    color: white;
+    background:green;
+    display: flex;">button for light on</button>
+    <button class="b1" onclick="on()" style="
+    display: flex;
+    margin: -27px 0px 0px 577px;
+    color: white;
+    font-size: 19px;
+    border-radius: 0px;
+    background: red;">button for light off</button>
+    <div class="login">
+        <div class="content">
+            <form><label for="text"> Username : </label> <br>
+                <input type="text" placeholder="Enter name" required style="
+            width: 343px;
+            height: 33px;
+            padding: 0px 0px 0px 21px;
+            font-weight: bold;"><br>
+                <label for="Password">Password: </label> <br>
+                <input type="password" placeholder="Enter password" pattern="[0-9a-zA-Z]{8}" style="
+                width: 343px;
+                height: 33px;
+                padding: 0px 0px 0px 21px;
+                font-weight: bold;"><br>
+                <button class="b3" style="width: 145px;
+                height: 33px;
+                border-radius: 8px;
+                margin-top: 15px;"><b><a href="http://127.0.0.1:5501/Electricity.html"
+                            target="_blank">Login</a></b></button>
+                <button id=" b4" style="width: 145px;
+                height: 33px;
+                border-radius: 8px;
+                margin-top: 15px;"><b> <a href="http://127.0.0.1:5501/Electricity.html" target="_blank"
+                            style="text-decoration: none;">Sign
+                            up</a></b></button>
+                <input type="reset" class="reset" class="reset">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
