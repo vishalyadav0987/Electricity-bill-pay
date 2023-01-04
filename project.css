@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.i {
+    color: green;
+}
+
+.r {
+    color: red;
+}
+
+.header {
+    display: flex;
+    list-style: none;
+    background-color: #1b1919;
+    color: aliceblue;
+    height: 72px;
+}
+
+.b1:hover {
+    cursor: pointer;
+
+}
+
+.b2:hover {
+    cursor: pointer;
+
+}
+
+.inline {
+    font-weight: bolder;
+}
+
+.h {
+    margin: 19px 0px 0px 104px;
+    font-size: 30px;
+}
+
+.h:hover {
+    cursor: pointer;
+}
+
+.c {
+    font-size: 30px;
+    margin: -34px 0px 0px 231px;
+}
+
+.c:hover {
+    cursor: pointer;
+}
+
+.u {
+    font-size: 30px;
+    margin: -34px 0px 0px 361px;
+}
+
+.u:hover {
+    cursor: pointer;
+}
+
+.login {
+
+    margin: 47px 0px 0px 450px;
+    border: 2px solid red;
+    width: 680px;
+    height: 360px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+    background-color: red;
+}
+
+.x {
+    margin: 14px 0px 0px 279px;
+}
+
+.content {
+    margin: 50px 0px 0px 64px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.b3:hover {
+    background-color: red;
+    border: 3px solid white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#b4:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b3 b a {
+    text-decoration: none;
+}
+
+#b4 b a {
+    text-decoration: none;
+}
+
+.reset {
+    margin: 60px 0px 0px 440px;
+    display: flex;
+    width: 150px;
+    height: 32px;
+    border-radius: 9px;
+    font-size: 15px;
+    color: red;
+}
+
+.reset:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
