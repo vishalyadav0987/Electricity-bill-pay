@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow:auto;
+}
+
+.logo img {
+    margin: 13px 0px 75px 202px;
+}
+
+.l1 {
+    margin: -122px 0px 1px 1157px;
+    display: flex;
+    text-decoration: none;
+}
+
+.l2 {
+    margin: -138px 0px 132px 1157px;
+    text-decoration: none;
+
+}
+
+.sub .text {
+    margin: 4px 0px 0px 1037px;
+    width: 167px;
+    height: 30px;
+    padding-left: 11px;
+    border-radius: 7px;
+}
+
+.content .main {
+    border-radius: 31px;
+    margin: 36px 0px 30px 0px;
+}
+
+.f1 {
+    margin: -20px 0px 0px 197px;
+    border-radius: 9px;
+}
+
+.f2 {
+    border-radius: 9px;
+    margin-left: 8px;
+}
+
+.f3 {
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+.f4 {
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+.f5 {
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+.form {
+
+    width: 1149px;
+    margin: 32px 0px 0px 202px;
+
+}
+
+label .b1 {
+    font-size: 37px;
+}
+
+label .b2 {
+    font-size: 37px;
+}
+
+.form {
+    min-height: calc(100vh - 30vh - 58px);
+}
+
+.bulb23 {
+
+    margin: 0px 0px 6px 1088px;
+    display: flex;
+}
+
+.form input {
+    width: 363px;
+    height: 34px;
+}
+
+.b1 {
+    margin: 0px 0px 0px 46px;
+}
+
+.b2 {
+    margin: 0px 0px 0px 46px;
+}
+
+
+
+.gpay {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: -90px 16px 35px 541px;
+}
+
+.paytm {
+    margin: -90px 0px 45px 633px;
+    width: 76px;
+    display: flex;
+}
+
+.visa {
+    width: 94px;
+    display: flex;
+    margin: -81px 0px 49px 736px;
+}
+
+.logo5 {
+    display: flex;
+    margin: -306px 0px 155px 539px;
+    width: 408px;
+    height: 176px;
+}
+
+.units89 {
+    margin: 0px 0px 0px 63px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.power {
+    margin: 54px 0px 37px 64px;
+    text-transform: capitalize;
+}
+
+.units {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.line {
+    margin: -120px 0px 25px 559px;
+    width: 33px;
+    display: flex;
+    height: 379px;
+
+}
+
+.units90 {
+    margin: -255px 0px 248px 64px;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.meter4 {
+    margin: -81px 0px 42px 672px;
+    text-transform: capitalize;
+}
+
+#Rateunit {
+    border: 2px solid #0a09094a;
+    width: 267px;
+    margin: -203px 0px 159px 207px;
+    display: flex;
+    height: 26px;
+    text-align: center;
+    padding: 11px 0px 0px 15px;
+}
+
+.class {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin: -195px 0px 150px 61px;
+    text-transform: capitalize;
+
+}
+
+.for {
+    color: blue;
+    font-size: 25px;
+    margin: -318px 0px 255px 686px;
+    text-transform: capitalize;
+}
+
+.how1 {
+    color: red;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 18px 0px -38px 202px;
+}
+
+.tower {
+    width: 487px;
+    margin: 39px 0px 45px 1007px;
+    height: 705;
+}
+
+.gpay:hover {
+    cursor: pointer;
+}
+
+.paytm:hover {
+    cursor: pointer;
+}
+
+.visa {
+    cursor: pointer;
+}
+
+.logo5 {
+    cursor: pointer;
+}
+
+.footer {
+
+    background-color: red;
+    height: 30vh;
+    text-align: center;
+    margin-top: -646px;
+    width: 1737px;
+    margin-left: -201px;
+}
